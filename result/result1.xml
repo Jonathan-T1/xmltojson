@@ -1,0 +1,88 @@
+<quizReport xmlns="http://www.ispringsolutions.com/ispring/quizbuilder/quizresults" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ispringsolutions.com/ispring/quizbuilder/quizresults quizReport.xsd" version="2">
+<quizSettings quizType="graded" maxScore="30" maxNormalizedScore="100" timeLimit="0">
+<passingPercent>80</passingPercent>
+</quizSettings>
+<summary score="30" percent="100" time="13" finishTimestamp="2 de julio de 2024 9:42" passed="true"/>
+<questions>
+<multipleResponseQuestion id="z4aj19jo6ftd-dx9ucq5q870j" status="correct" evaluationEnabled="true" maxPoints="10" maxAttempts="1" awardedPoints="10" usedAttempts="1">
+<direction>
+<text>
+<![CDATA[ Cuales fueron los primeros campeones de league of Legends ]]>
+</text>
+</direction>
+<feedback>
+<text>
+<![CDATA[ ¡Muy bien! Respuesta correcta ]]>
+</text>
+</feedback>
+<answers>
+<answer correct="true" selected="true">
+<text>
+<![CDATA[ Ryse ]]>
+</text>
+</answer>
+<answer correct="true" selected="true">
+<text>
+<![CDATA[ Ahri ]]>
+</text>
+</answer>
+<answer correct="false" selected="false">
+<text>
+<![CDATA[ Taliyha ]]>
+</text>
+</answer>
+</answers>
+</multipleResponseQuestion>
+<trueFalseQuestion id="o23zisa47u6o-i1ljdsb86h8" status="correct" evaluationEnabled="true" maxPoints="10" maxAttempts="1" awardedPoints="10" usedAttempts="1">
+<direction>
+<text>
+<![CDATA[ League of Legends fue creado a base de DOTA ]]>
+</text>
+</direction>
+<feedback>
+<text>
+<![CDATA[ ¡Muy bien! Respuesta correcta ]]>
+</text>
+</feedback>
+<answers correctAnswerIndex="0" userAnswerIndex="0">
+<answer>
+<text>
+<![CDATA[ Verdadero ]]>
+</text>
+</answer>
+<answer>
+<text>
+<![CDATA[ Falso ]]>
+</text>
+</answer>
+</answers>
+</trueFalseQuestion>
+<trueFalseQuestion id="afhmx1i1vww5-4n8t38rr53sl" status="correct" evaluationEnabled="true" maxPoints="10" maxAttempts="1" awardedPoints="10" usedAttempts="1">
+<direction>
+<text>
+<![CDATA[ League of Legends tiene menos de 140 campeones ]]>
+</text>
+</direction>
+<feedback>
+<text>
+<![CDATA[ ¡Muy bien! Respuesta correcta ]]>
+</text>
+</feedback>
+<answers correctAnswerIndex="0" userAnswerIndex="0">
+<answer>
+<text>
+<![CDATA[ Verdadero ]]>
+</text>
+</answer>
+<answer>
+<text>
+<![CDATA[ Falso ]]>
+</text>
+</answer>
+</answers>
+</trueFalseQuestion>
+</questions>
+<groups>
+<group name="Grupo de preguntas 1" passingScore="24" awardedScore="30" passingPercent="80" awardedPercent="100" totalQuestions="3" answeredQuestions="3"/>
+</groups>
+</quizReport>
