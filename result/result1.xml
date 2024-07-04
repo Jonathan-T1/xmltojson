@@ -2,7 +2,7 @@
 <quizSettings quizType="graded" maxScore="30" maxNormalizedScore="100" timeLimit="0">
 <passingPercent>80</passingPercent>
 </quizSettings>
-<summary score="30" percent="100" time="13" finishTimestamp="2 de julio de 2024 9:42" passed="true"/>
+<summary score="20" percent="67" time="12" finishTimestamp="3 de julio de 2024 15:33" passed="false"/>
 <questions>
 <multipleResponseQuestion id="z4aj19jo6ftd-dx9ucq5q870j" status="correct" evaluationEnabled="true" maxPoints="10" maxAttempts="1" awardedPoints="10" usedAttempts="1">
 <direction>
@@ -57,7 +57,7 @@
 </answer>
 </answers>
 </trueFalseQuestion>
-<trueFalseQuestion id="afhmx1i1vww5-4n8t38rr53sl" status="correct" evaluationEnabled="true" maxPoints="10" maxAttempts="1" awardedPoints="10" usedAttempts="1">
+<trueFalseQuestion id="afhmx1i1vww5-4n8t38rr53sl" status="incorrect" evaluationEnabled="true" maxPoints="10" maxAttempts="1" awardedPoints="0" usedAttempts="1">
 <direction>
 <text>
 <![CDATA[ League of Legends tiene menos de 140 campeones ]]>
@@ -65,10 +65,10 @@
 </direction>
 <feedback>
 <text>
-<![CDATA[ ¡Muy bien! Respuesta correcta ]]>
+<![CDATA[ No seleccionó la respuesta correcta ]]>
 </text>
 </feedback>
-<answers correctAnswerIndex="0" userAnswerIndex="0">
+<answers correctAnswerIndex="0" userAnswerIndex="1">
 <answer>
 <text>
 <![CDATA[ Verdadero ]]>
@@ -83,6 +83,6 @@
 </trueFalseQuestion>
 </questions>
 <groups>
-<group name="Grupo de preguntas 1" passingScore="24" awardedScore="30" passingPercent="80" awardedPercent="100" totalQuestions="3" answeredQuestions="3"/>
+<group name="Grupo de preguntas 1" passingScore="24" awardedScore="20" passingPercent="80" awardedPercent="66.67" totalQuestions="3" answeredQuestions="2"/>
 </groups>
 </quizReport>
