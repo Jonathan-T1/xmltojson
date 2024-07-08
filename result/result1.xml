@@ -1,13 +1,13 @@
 <quizReport xmlns="http://www.ispringsolutions.com/ispring/quizbuilder/quizresults" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ispringsolutions.com/ispring/quizbuilder/quizresults quizReport.xsd" version="2">
-<quizSettings quizType="graded" maxScore="30" maxNormalizedScore="100" timeLimit="0">
+<quizSettings quizType="graded" maxScore="40" maxNormalizedScore="100" timeLimit="0">
 <passingPercent>80</passingPercent>
 </quizSettings>
-<summary score="20" percent="67" time="12" finishTimestamp="3 de julio de 2024 15:33" passed="false"/>
+<summary score="40" percent="100" time="25" finishTimestamp="8 de julio de 2024 11:09" passed="true"/>
 <questions>
-<multipleResponseQuestion id="z4aj19jo6ftd-dx9ucq5q870j" status="correct" evaluationEnabled="true" maxPoints="10" maxAttempts="1" awardedPoints="10" usedAttempts="1">
+<multipleChoiceQuestion id="mqiw7a5m42ry-e3i4cwen1wr2" status="correct" evaluationEnabled="true" maxPoints="10" maxAttempts="1" awardedPoints="10" usedAttempts="1">
 <direction>
 <text>
-<![CDATA[ Cuales fueron los primeros campeones de league of Legends ]]>
+<![CDATA[ De que nacionalidad es Feid ? ]]>
 </text>
 </direction>
 <feedback>
@@ -15,28 +15,28 @@
 <![CDATA[ ¡Muy bien! Respuesta correcta ]]>
 </text>
 </feedback>
-<answers>
-<answer correct="true" selected="true">
+<answers correctAnswerIndex="1" userAnswerIndex="1">
+<answer>
 <text>
-<![CDATA[ Ryse ]]>
+<![CDATA[ Dominicano ]]>
 </text>
 </answer>
-<answer correct="true" selected="true">
+<answer>
 <text>
-<![CDATA[ Ahri ]]>
+<![CDATA[ Colombiano ]]>
 </text>
 </answer>
-<answer correct="false" selected="false">
+<answer>
 <text>
-<![CDATA[ Taliyha ]]>
+<![CDATA[ Argentino ]]>
 </text>
 </answer>
 </answers>
-</multipleResponseQuestion>
-<trueFalseQuestion id="o23zisa47u6o-i1ljdsb86h8" status="correct" evaluationEnabled="true" maxPoints="10" maxAttempts="1" awardedPoints="10" usedAttempts="1">
+</multipleChoiceQuestion>
+<trueFalseQuestion id="gzb5jkxpy2o2-5bua1trq1bfo" status="correct" evaluationEnabled="true" maxPoints="10" maxAttempts="1" awardedPoints="10" usedAttempts="1">
 <direction>
 <text>
-<![CDATA[ League of Legends fue creado a base de DOTA ]]>
+<![CDATA[ El Ferxxocalipsis va a hacer concierto en Colombia ]]>
 </text>
 </direction>
 <feedback>
@@ -47,42 +47,103 @@
 <answers correctAnswerIndex="0" userAnswerIndex="0">
 <answer>
 <text>
-<![CDATA[ Verdadero ]]>
+<![CDATA[ verdadero ]]>
 </text>
 </answer>
 <answer>
 <text>
-<![CDATA[ Falso ]]>
+<![CDATA[ falso ]]>
 </text>
 </answer>
 </answers>
 </trueFalseQuestion>
-<trueFalseQuestion id="afhmx1i1vww5-4n8t38rr53sl" status="incorrect" evaluationEnabled="true" maxPoints="10" maxAttempts="1" awardedPoints="0" usedAttempts="1">
+<matchingQuestion id="e96c7o2yd48v-bltyuiaul82d" status="correct" evaluationEnabled="true" maxPoints="10" maxAttempts="1" awardedPoints="10" usedAttempts="1">
 <direction>
 <text>
-<![CDATA[ League of Legends tiene menos de 140 campeones ]]>
+<![CDATA[ Completa la letra de la canción Sorry 4 That Much ]]>
 </text>
 </direction>
 <feedback>
 <text>
-<![CDATA[ No seleccionó la respuesta correcta ]]>
+<![CDATA[ ¡Muy bien! Respuesta correcta ]]>
 </text>
 </feedback>
-<answers correctAnswerIndex="0" userAnswerIndex="1">
-<answer>
+<premises>
+<premise>
 <text>
-<![CDATA[ Verdadero ]]>
+<![CDATA[ Te quiero dar gracias ]]>
+</text>
+</premise>
+<premise>
+<text>
+<![CDATA[ Tu no eras así ]]>
+</text>
+</premise>
+<premise>
+<text>
+<![CDATA[ Estoy mejor sin ti ]]>
+</text>
+</premise>
+</premises>
+<responses>
+<response>
+<text>
+<![CDATA[ Por lo que pude vivir ]]>
+</text>
+</response>
+<response>
+<text>
+<![CDATA[ Jodiste lo de nosotros ]]>
+</text>
+</response>
+<response>
+<text>
+<![CDATA[ Así me quede roto ]]>
+</text>
+</response>
+</responses>
+<matches>
+<match premiseIndex="0" responseIndex="0"/>
+<match premiseIndex="1" responseIndex="1"/>
+<match premiseIndex="2" responseIndex="2"/>
+</matches>
+<userAnswer>
+<match premiseIndex="1" responseIndex="1"/>
+<match premiseIndex="0" responseIndex="0"/>
+<match premiseIndex="2" responseIndex="2"/>
+</userAnswer>
+</matchingQuestion>
+<multipleResponseQuestion id="b2fj3rohebni-m3ptfpz23i1" status="correct" evaluationEnabled="true" maxPoints="10" maxAttempts="1" awardedPoints="10" usedAttempts="1">
+<direction>
+<text>
+<![CDATA[ Con cuales artistas ha echo colaboración FEID ]]>
+</text>
+</direction>
+<feedback>
+<text>
+<![CDATA[ ¡Muy bien! Respuesta correcta ]]>
+</text>
+</feedback>
+<answers>
+<answer correct="true" selected="true">
+<text>
+<![CDATA[ Ryan Castro ]]>
 </text>
 </answer>
-<answer>
+<answer correct="true" selected="true">
 <text>
-<![CDATA[ Falso ]]>
+<![CDATA[ Karol G ]]>
+</text>
+</answer>
+<answer correct="true" selected="true">
+<text>
+<![CDATA[ Blessd ]]>
 </text>
 </answer>
 </answers>
-</trueFalseQuestion>
+</multipleResponseQuestion>
 </questions>
 <groups>
-<group name="Grupo de preguntas 1" passingScore="24" awardedScore="20" passingPercent="80" awardedPercent="66.67" totalQuestions="3" answeredQuestions="2"/>
+<group name="Grupo de preguntas 1" passingScore="32" awardedScore="40" passingPercent="80" awardedPercent="100" totalQuestions="4" answeredQuestions="4"/>
 </groups>
 </quizReport>
