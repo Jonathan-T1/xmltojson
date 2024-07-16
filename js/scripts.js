@@ -1,7 +1,7 @@
 document.getElementById("uploadinfo").addEventListener("click", uploadInfo);
 
 function uploadInfo() {
-    const filePath = "./result/result2.xml";  // Asegúrate de que esta ruta sea correcta
+    const filePath = "./result/result2.xml";  
 
     fetch(filePath)
         .then(response => {

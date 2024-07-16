@@ -1,0 +1,149 @@
+<quizReport xmlns="http://www.ispringsolutions.com/ispring/quizbuilder/quizresults" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ispringsolutions.com/ispring/quizbuilder/quizresults quizReport.xsd" version="2">
+<quizSettings quizType="graded" maxScore="40" maxNormalizedScore="100" timeLimit="0">
+<passingPercent>80</passingPercent>
+</quizSettings>
+<summary score="40" percent="100" time="25" finishTimestamp="8 de julio de 2024 11:09" passed="true"/>
+<questions>
+<multipleChoiceQuestion id="mqiw7a5m42ry-e3i4cwen1wr2" status="correct" evaluationEnabled="true" maxPoints="10" maxAttempts="1" awardedPoints="10" usedAttempts="1">
+<direction>
+<text>
+<![CDATA[ De que nacionalidad es Feid ? ]]>
+</text>
+</direction>
+<feedback>
+<text>
+<![CDATA[ ¡Muy bien! Respuesta correcta ]]>
+</text>
+</feedback>
+<answers correctAnswerIndex="1" userAnswerIndex="1">
+<answer>
+<text>
+<![CDATA[ Dominicano ]]>
+</text>
+</answer>
+<answer>
+<text>
+<![CDATA[ Colombiano ]]>
+</text>
+</answer>
+<answer>
+<text>
+<![CDATA[ Argentino ]]>
+</text>
+</answer>
+</answers>
+</multipleChoiceQuestion>
+<trueFalseQuestion id="gzb5jkxpy2o2-5bua1trq1bfo" status="correct" evaluationEnabled="true" maxPoints="10" maxAttempts="1" awardedPoints="10" usedAttempts="1">
+<direction>
+<text>
+<![CDATA[ El Ferxxocalipsis va a hacer concierto en Colombia ]]>
+</text>
+</direction>
+<feedback>
+<text>
+<![CDATA[ ¡Muy bien! Respuesta correcta ]]>
+</text>
+</feedback>
+<answers correctAnswerIndex="0" userAnswerIndex="0">
+<answer>
+<text>
+<![CDATA[ verdadero ]]>
+</text>
+</answer>
+<answer>
+<text>
+<![CDATA[ falso ]]>
+</text>
+</answer>
+</answers>
+</trueFalseQuestion>
+<matchingQuestion id="e96c7o2yd48v-bltyuiaul82d" status="correct" evaluationEnabled="true" maxPoints="10" maxAttempts="1" awardedPoints="10" usedAttempts="1">
+<direction>
+<text>
+<![CDATA[ Completa la letra de la canción Sorry 4 That Much ]]>
+</text>
+</direction>
+<feedback>
+<text>
+<![CDATA[ ¡Muy bien! Respuesta correcta ]]>
+</text>
+</feedback>
+<premises>
+<premise>
+<text>
+<![CDATA[ Te quiero dar gracias ]]>
+</text>
+</premise>
+<premise>
+<text>
+<![CDATA[ Tu no eras así ]]>
+</text>
+</premise>
+<premise>
+<text>
+<![CDATA[ Estoy mejor sin ti ]]>
+</text>
+</premise>
+</premises>
+<responses>
+<response>
+<text>
+<![CDATA[ Por lo que pude vivir ]]>
+</text>
+</response>
+<response>
+<text>
+<![CDATA[ Jodiste lo de nosotros ]]>
+</text>
+</response>
+<response>
+<text>
+<![CDATA[ Así me quede roto ]]>
+</text>
+</response>
+</responses>
+<matches>
+<match premiseIndex="0" responseIndex="0"/>
+<match premiseIndex="1" responseIndex="1"/>
+<match premiseIndex="2" responseIndex="2"/>
+</matches>
+<userAnswer>
+<match premiseIndex="1" responseIndex="1"/>
+<match premiseIndex="0" responseIndex="0"/>
+<match premiseIndex="2" responseIndex="2"/>
+</userAnswer>
+</matchingQuestion>
+<multipleResponseQuestion id="b2fj3rohebni-m3ptfpz23i1" status="correct" evaluationEnabled="true" maxPoints="10" maxAttempts="1" awardedPoints="10" usedAttempts="1">
+<direction>
+<text>
+<![CDATA[ Con cuales artistas ha echo colaboración FEID ]]>
+</text>
+</direction>
+<feedback>
+<text>
+<![CDATA[ ¡Muy bien! Respuesta correcta ]]>
+</text>
+</feedback>
+<answers>
+<answer correct="true" selected="true">
+<text>
+<![CDATA[ Ryan Castro ]]>
+</text>
+</answer>
+<answer correct="true" selected="true">
+<text>
+<![CDATA[ Karol G ]]>
+</text>
+</answer>
+<answer correct="true" selected="true">
+<text>
+<![CDATA[ Blessd ]]>
+</text>
+</answer>
+</answers>
+</multipleResponseQuestion>
+</questions>
+<groups>
+<group name="Grupo de preguntas 1" passingScore="32" awardedScore="40" passingPercent="80" awardedPercent="100" totalQuestions="4" answeredQuestions="4"/>
+</groups>
+</quizReport>

@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <title>SB Admin 2 - Blank</title>
@@ -275,49 +276,74 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
+                    <!-- Begin Page Content -->
+                <div class="container-fluid">
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Quizzes</h1>
-
-                    <!-- DataTales Example -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">This are your Quizzes</h6>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr> 
-                                            <th>#</th>
-                                            <th>Quiz name</th>
-                                            <th>Percentage %</th>
-                                            <th>See Quiz</th>
-                                        </tr>
-                                    </thead>
-                                    <tfoot>
-                                    </tfoot>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>lol Quiz</td>
-                                            <td>100 %</td>
-                                            <td><a href="./report.html">More info in my Quiz</a>
-                                                <i class="bi bi-search"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Feid Quiz</td>
-                                            <td>75 %</td>
-                                            <td><a href="./report.html">More info in my Quiz</a>
-                                                <i class="bi bi-search"></i></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                    <h1 class="h3 mb-4 text-gray-800">Blank Page</h1>
+                </div>
+                <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" id="uploadinfo">See Results</a>
+                    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" data-bs-toggle="modal" data-bs-target="#ventanamodal">
+                        <i class="fas fa-download fa-sm text-white-50"></i> Generate Report
+                    </a>
+                </div>
+            
+                <!-- Modal -->
+                <div class="modal fade" tabindex="-1" id="ventanamodal" role="dialog" aria-labelledby="ventanamodalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="ventanamodalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Modal body text goes here.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
                             </div>
                         </div>
                     </div>
-
                 </div>
+
+                    <div class="container mt-3">
+                        <div class="card mx-auto my-5" style="width: 40rem;">
+                            <div class="card-body border rounded shadow-lg">
+                                <div>
+                                    <h5 class="card-title">Results of Quiz</h5>
+                                </div>
+                                <div class="d-flex flex-row-reverse">
+                                    <div class="p-2"><strong>Feid Quiz</strong></div>
+                                </div>
+                                <ul>
+                                    <li><p><strong>Fecha/Hora :</strong> <span id="finish-timestamp"></span></p></li>
+                                    <li><p><strong>Puntuación del estudiante :</strong> <span id="student-score"></span></p></li>
+                                    <li><p><strong>Puntuación aprobatoria :</strong> <span id="required-score"></span></p></li>
+                                    <li><p><strong>Tiempo utilizado :</strong> <span id="time-used"></span></p></li>
+                                    <li><p><strong>Resultado :</strong> <span id="result-status"></span></p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <table class="table mx-auto my-5" style="width: 80rem;">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Pregunta</th>
+                                <th scope="col">Obtenido</th>
+                                <th scope="col">Puntos</th>
+                                <th scope="col">Resultado</th>
+                            </tr>
+                        </thead>
+                        <tbody id="infoxml">
+                            <!-- Aquí se insertarán dinámicamente las preguntas -->
+                        </tbody>
+                    </table>
+
+                    <!-- DataTales Example -->
+                    
             <!-- End of Main Content -->
 
             <!-- Footer -->
@@ -361,21 +387,24 @@
         </div>
     </div>
 
-    <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- Page level plugins -->
-        <script src="vendor/datatables/jquery.dataTables.min.js"></script>
-        <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
-        
-    <!-- Page level custom scripts -->
-        <script src="js/demo/datatables-demo.js"></script>
+<!-- Bootstrap core JavaScript-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Core plugin JavaScript-->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
+<!-- Custom scripts for all pages-->
+<script src="js/sb-admin-2.min.js"></script>
+
+<!-- Page level plugins -->
+<script src="vendor/datatables/jquery.dataTables.min.js"></script>
+<script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+<!-- Page level custom scripts -->
+<script src="js/demo/datatables-demo.js"></script>
+<!-- My script-->
+<script src="../js/scripts.js"></script>
 
 </body>
 
